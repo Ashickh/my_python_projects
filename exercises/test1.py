@@ -1,0 +1,16 @@
+# l=[1,2,3,4,5,6,7,8,9]
+# odd=print([i for i in l if i%2==0])
+# even=print([x for x in l if x%2!=0])
+
+l=[1,2,3,4,5,6,7,8,9,10]
+prime=[]
+non_prim=[]
+for i in l:
+    for j in range(2,i):
+        if i%j==0:
+            prime.append(i)
+            break
+    else:
+        non_prim.append(i)
+print(prime)
+print(non_prim)

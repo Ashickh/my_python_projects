@@ -1,0 +1,7 @@
+t=('a','p','p','l','e')
+print(t)
+print(len(t))
+print(t.count('p'))
+print(t.index('l'))
+print(max(t))
+print(min(t))

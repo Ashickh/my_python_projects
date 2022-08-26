@@ -1,0 +1,5 @@
+l=[1,2,3,4,5,6]
+l.remove(5)
+# l.clear()
+# del l
+print(l)

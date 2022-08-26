@@ -1,0 +1,3 @@
+Ashiq,11,67
+Rinsha,17,68
+Zamaan,24,79
